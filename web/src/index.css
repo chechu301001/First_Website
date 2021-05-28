@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: black!important;
+  font-weight: bold;
+}
+.navbar-brand span {
+  color: #02aeb4;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.menu_active {
+  font-weight: 600;
+  border-bottom: 1px solid #116bbeb7;
+}
+.navbar a:hover {
+  color: #02aeb4!important;
+}
+@media (max-width:768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .menu_active {
+    font-weight: bold !important;
+    border-bottom: none !important;
+  }
+  .carousel-item {
+    display: none !important;
+  }
+
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+.carousel-item {
+  height: 700px;
+  margin-top: 50px;
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#header h1 {
+  margin: 0 0 5px 0 !important;
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+}
+#header .brand-name {
+  color: #02aeb4;
+}
+#header h2 {
+  color: #484848;
+  font-size: 27px;
+}
+#header .btn{
+  transition: 0.6s;
+}
+.header-img {
+  text-align: right;
+}
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
